@@ -16,6 +16,7 @@ setup(name='flight-gyro-sensors',
       packages=find_packages(exclude=['tests', 'tests.*']),
       platforms=['unix', 'linux', 'osx', 'cygwin', 'win32'],
       install_requires=[
+            'smbus==1.1.post2'
       ],
       classifiers=[
           'Development Status :: Beta',
